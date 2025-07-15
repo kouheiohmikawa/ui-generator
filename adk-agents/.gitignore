@@ -1,0 +1,35 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+venv/
+.env
+.env.*
+
+# --- Node / Vite / Vue ---
+node_modules/
+# Vite cache
+.vite/
+# Local build output (if any)
+dist/
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- ADK artifacts (generated at runtime) ---
+adk-agents/**/artifacts/
+
+# --- macOS & system files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE/Editor settings ---
+.vscode/
+.idea/
+*.swp 
